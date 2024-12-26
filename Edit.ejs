@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <form method="post" action="/update/<%= mydata._id%>">
+            Name : <input type="text" name="txt1" value="<%= mydata.name %>" required>
+            Mobile : <input type="number" name="txt2" value="<%= mydata.mobile %>" required>
+            Email : <input type="email" name="txt3" value="<%= mydata.email %>" required>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>
